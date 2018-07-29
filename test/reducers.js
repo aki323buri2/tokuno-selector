@@ -1,8 +1,5 @@
+import starterReducers from '../lib/starterReducers';
 export const reducers = {
-	test: (state = null, action) =>
-	{
-		if (action.type === 'TEST') return action.payload;
-		return state;
-	}, 
+	...starterReducers,  
 };
 export default reducers;

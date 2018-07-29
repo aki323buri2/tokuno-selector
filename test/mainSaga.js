@@ -1,6 +1,7 @@
 import { put, call, fork } from 'redux-saga/effects';
+import starterSaga from '../lib/starterSaga';
 export const mainSaga = function *()
 {
-	yield put({ type: 'TEST', payload: 'test' });
+	yield fork(starterSaga);
 };
 export default mainSaga;

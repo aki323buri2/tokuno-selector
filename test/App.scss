@@ -25,3 +25,16 @@ $family-sans-serif:
 {
 	display: flex;
 }
+
+.field 
+{
+	display: flex;
+	.field-title
+	{
+		width: 7em;
+		text-align: right;
+		font-weight: bold;
+		margin-right: 1em;
+		line-height: 2.5em;
+	}
+}

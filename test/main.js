@@ -6,7 +6,7 @@ import { createApp } from 'redux-saga-app';
 import App from './App';
 import reducers from './reducers';
 import mainSaga from './mainSaga';
-
+global.reduxLogger = true;
 Promise.resolve().then(e => 
 {
 	const app = createApp(App, reducers);
