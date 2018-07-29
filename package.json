@@ -43,6 +43,7 @@
     "react-router-dom": "*",
     "bulma": "*",
     "bulma-extensions": "*",
-    "@fortawesome/fontawesome-free": "*"
+    "@fortawesome/fontawesome-free": "*",
+    "redux-saga-app": "file:../redux-saga-app"
   }
 }
