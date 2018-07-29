@@ -20,7 +20,7 @@ export default class App extends React.Component
 					<div className="field-body">
 						<Starter
 							value={starter}
-							onChange={value => this.action('TEST', value)}
+							onChange={value => this.action('STARTER', value)}
 						/>
 					</div>
 				</div>
