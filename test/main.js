@@ -1,4 +1,5 @@
 import 'babel-polyfill';
+import 'dom-polyfill';
 import React from 'react';
 import { render } from 'react-dom';
 import { createApp } from 'redux-saga-app';
