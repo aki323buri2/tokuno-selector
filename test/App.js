@@ -13,7 +13,7 @@ export default class App extends React.Component
 	{
 		const { starter } = this.props;
 		return (
-			<div className="app">
+			<div className="app content is-small">
 				
 				<div className="field">
 					<div className="field-title">すたあたあ : </div>

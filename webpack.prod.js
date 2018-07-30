@@ -1,20 +1,24 @@
 const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const path = require('path');
 module.exports = {
-	mode: 'development', 
+	mode: 'production', 
 	entry: './test/main.js', 
 	output: {
-		path: path.resolve(__dirname, 'dist'), 
-		filename: '[name].js', 
+		path: path.resolve(__dirname, 'public'), 
+		filename: '[name][hash].js', 
 	}, 
 	plugins: [
 		new ExtractTextWebpackPlugin(
-			'[name].css', 
+			'[name][hash].css', 
 		), 
 		new HtmlWebpackPlugin({
-			title: 'starter dev', 
+			title: 'starter', 
 		}), 
+		new CleanWebpackPlugin([
+			'public', 
+		]),
 	], 
 	module: {
 		rules: [
