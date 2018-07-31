@@ -1,2 +1,2 @@
-import Starter from './lib/Starter';
-export default Starter;
+import TokunoSelector from './lib/TokunoSelector';
+export default TokunoSelector;

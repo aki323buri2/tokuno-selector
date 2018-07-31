@@ -1,7 +1,7 @@
 import './App.scss';
 import React from 'react';
 import { connect } from 'react-redux';
-import Starter from '../lib/Starter';
+import TokunoSelector from '../lib/TokunoSelector';
 @connect(state => state)
 export default class App extends React.Component
 {
@@ -11,16 +11,16 @@ export default class App extends React.Component
 	}
 	render()
 	{
-		const { starter } = this.props;
+		const { tokuno } = this.props;
 		return (
 			<div className="app content is-small">
 				
 				<div className="field">
-					<div className="field-title">すたあたあ : </div>
+					<div className="field-title">とくのおせれくたあ : </div>
 					<div className="field-body">
-						<Starter
-							value={starter}
-							onChange={value => this.action('STARTER', value)}
+						<TokunoSelector
+							value={tokuno}
+							onChange={value => this.action('TOKUNO', value)}
 						/>
 					</div>
 				</div>

@@ -1,9 +1,9 @@
-# [project-name]
+# tokuno-selector
 
 ```bash
-git clone /path/to/[project-name].git
+git clone /path/to/tokuno-selector.git
 
-cd [project-name]
+cd tokuno-selector
 npm install
 npx webpack
 npx webpack --watch -d

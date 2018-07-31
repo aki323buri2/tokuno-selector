@@ -14,7 +14,7 @@ module.exports = {
 			'[name][hash].css', 
 		), 
 		new HtmlWebpackPlugin({
-			title: 'starter', 
+			title: 'tokuno-selector', 
 		}), 
 		new CleanWebpackPlugin([
 			'public', 

@@ -1,0 +1,19 @@
+$invalid-color: tomato !default;
+.tokuno-input
+{
+	// border: 1px solid red;
+	width: 250px;
+	&:not(.valid)
+	{
+		color: $invalid-color;
+		.input
+		{
+			border-color: $invalid-color;
+			background: rgba($invalid-color, .2);
+		}
+		.icon
+		{
+			color: inherit;
+		}
+	}
+}

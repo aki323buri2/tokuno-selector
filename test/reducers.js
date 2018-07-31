@@ -1,5 +1,5 @@
-import starterReducers from '../lib/starterReducers';
+import tokunoSelectorReducers from '../lib/tokunoSelectorReducers';
 export const reducers = {
-	...starterReducers,  
+	...tokunoSelectorReducers,  
 };
 export default reducers;
