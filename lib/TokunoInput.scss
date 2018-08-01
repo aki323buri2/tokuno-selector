@@ -8,6 +8,7 @@ $invalid-color: tomato !default;
 		color: $invalid-color;
 		.input
 		{
+			color: inherit;
 			border-color: $invalid-color;
 			background: rgba($invalid-color, .2);
 		}
