@@ -1,0 +1,12 @@
+.used-tokuno
+{
+	&:not(.active)
+	{
+		display: none;
+	}
+	border: 1px solid #ccc;
+	margin-top: 3px;
+	border-radius: 3px;
+	position: absolute;
+	width: 500px;
+}

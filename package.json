@@ -52,6 +52,7 @@
     "filesize": "*",
     "classnames": "*",
     "keycodes": "*",
-    "loading-overlay": "file:../loading-overlay"
+    "loading-overlay": "file:../loading-overlay",
+    "react-transition-group": "*"
   }
 }
