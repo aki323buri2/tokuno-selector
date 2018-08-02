@@ -16,4 +16,22 @@
 		background: #fff;
 		margin-top: 5px;
 	}
+
+	.loading
+	{
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(#000, .5);
+		color: #fff;
+		z-index: 50;
+		text-align: center;
+		.loading-display
+		{
+			margin: 1.5em auto;
+		}
+	}
+
 }

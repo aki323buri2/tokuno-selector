@@ -51,6 +51,7 @@
     "numeral": "*",
     "filesize": "*",
     "classnames": "*",
-    "keycodes": "*"
+    "keycodes": "*",
+    "loading-overlay": "file:../loading-overlay"
   }
 }

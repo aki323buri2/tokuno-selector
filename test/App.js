@@ -11,7 +11,7 @@ export default class App extends React.Component
 	}
 	render()
 	{
-		const { tokuno } = this.props;
+		const { tmasaPending, tmasa, tokuno } = this.props;
 		return (
 			<div className="app content is-small">
 				
@@ -19,7 +19,9 @@ export default class App extends React.Component
 					<div className="field-title">とくのおせれくたあ : </div>
 					<div className="field-body">
 						<TokunoSelector
-							value={tokuno}
+							tokuno={tokuno}
+							tmasa={tmasa}
+							tmasaPending={tmasaPending}
 							onChange={value => this.action('TOKUNO', value)}
 						/>
 					</div>
