@@ -9,4 +9,26 @@
 	border-radius: 3px;
 	position: absolute;
 	width: 500px;
+
+	.table
+	{
+		th
+		{
+			text-align: center;
+		}
+		th.tokuno
+		{
+			font-size: .5em;
+		}
+		td.tokuno, 
+		td.ukin
+		{
+			text-align: right;
+		}
+		td.min_kjob, 
+		td.max_kjob
+		{
+			text-align: center;
+		}
+	}
 }
