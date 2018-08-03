@@ -12,6 +12,7 @@ export default class App extends React.Component
 	render()
 	{
 		const { tmasaPending, tmasa, tokuno } = this.props;
+		const suffix = 910;
 		return (
 			<div className="app content is-small">
 				
@@ -20,7 +21,7 @@ export default class App extends React.Component
 					<div className="field-body">
 						<TokunoSelector
 							tokuno={tokuno}
-							tmasa={tmasa}
+							tmasa={tmasa[suffix]}
 							tmasaPending={tmasaPending}
 							onChange={value => this.action('TOKUNO', value)}
 						/>
