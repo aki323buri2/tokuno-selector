@@ -1,45 +1,54 @@
 .tokuno-selector
 {
-	position: relative;
-	.menu
+	display: flex;
+	.input-section
 	{
-		&:not(.active)
+		position: relative;
+		.menu
 		{
-			display: none;
-		}
-		font-size: inherit;
-		border: 1px solid #ccc;
-		padding: 3px;
-		border-radius: 5px;
-		position: absolute;
-		z-index: 40;
-		background: #fff;
-		margin-top: 5px;
-
-		.close-button
-		{
-			background-color: #ccc;
-			border-color: #ccc;
+			&:not(.active)
+			{
+				display: none;
+			}
+			font-size: inherit;
+			border: 1px solid #ccc;
+			padding: 3px;
+			border-radius: 5px;
 			position: absolute;
-			right: -2.5em;
+			z-index: 40;
+			background: #fff;
+			margin-top: 5px;
+
+			.close-button
+			{
+				background-color: #ccc;
+				border-color: #ccc;
+				position: absolute;
+				right: -2.5em;
+			}
+		}
+
+		.loading
+		{
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			background: rgba(#000, .5);
+			color: #fff;
+			z-index: 50;
+			text-align: center;
+			.loading-display
+			{
+				margin: 1.5em auto;
+			}
 		}
 	}
-
-	.loading
+	.list-section
 	{
-		position: absolute;
-		left: 0;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		background: rgba(#000, .5);
-		color: #fff;
-		z-index: 50;
-		text-align: center;
-		.loading-display
-		{
-			margin: 1.5em auto;
-		}
+		// border: 1px solid blue;
+		margin-left: 5px;
 	}
 
 }

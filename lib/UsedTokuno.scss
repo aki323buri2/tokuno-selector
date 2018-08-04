@@ -15,8 +15,7 @@
 		background: #ccc;
 		border-color: #ccc;
 		position: absolute;
-		right: 0;
-		top: -2.5em;
+		right: -2.5em;
 	}
 
 	.table
@@ -27,7 +26,7 @@
 		}
 		th.tokuno
 		{
-			font-size: .5em;
+			font-size: .7em;
 		}
 		td.tokuno, 
 		td.ukin
@@ -39,9 +38,9 @@
 		{
 			text-align: center;
 		}
-		tr.is-selected
+		tr.selected
 		{
-			background-color: dodgerblue;
+			background-color: #ccc;
 		}
 	}
 }
