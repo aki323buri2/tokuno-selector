@@ -10,6 +10,15 @@
 	position: absolute;
 	width: 500px;
 
+	.close-button
+	{
+		background: #ccc;
+		border-color: #ccc;
+		position: absolute;
+		right: 0;
+		top: -2.5em;
+	}
+
 	.table
 	{
 		th
@@ -29,6 +38,10 @@
 		td.max_kjob
 		{
 			text-align: center;
+		}
+		tr.is-selected
+		{
+			background-color: dodgerblue;
 		}
 	}
 }

@@ -15,6 +15,14 @@
 		z-index: 40;
 		background: #fff;
 		margin-top: 5px;
+
+		.close-button
+		{
+			background-color: #ccc;
+			border-color: #ccc;
+			position: absolute;
+			right: -2.5em;
+		}
 	}
 
 	.loading
